@@ -1,7 +1,6 @@
 
-#ifndef MAIN_H
-#define MAIN_H
-
+#ifndef MAIN
+#define MAIN
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -21,7 +20,7 @@ private:
 public:
     // Constructor and Destructor
     DoublyLinkedList();
-    ~DoublyLinkedList();
+  
 
     // Stack-specific methods (LIFO)
     void insertStack(int value);

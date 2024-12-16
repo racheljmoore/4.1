@@ -11,12 +11,7 @@ int main() {
     DoublyLinkedList stack; 
     DoublyLinkedList queue; 
 
-    // Inserted into stack (LIFO)
-    std::cout << "Testing Stack:\n";
-    stack.insertStack(10); 
-    stack.insertStack(20);
-    stack.insertStack(30);
-    stack.printStack(); 
+	if (top == MAX - 1)
 
     // Remove from stack
     stack.removeStack();
